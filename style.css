@@ -23,6 +23,11 @@ html {
   text-decoration: none;
 }
 
+.topnav a.active {
+  background-color: #1affa3;
+  color: yellow;
+}
+
 .topnav a:hover {
   background-color: #111;
   color: #000;
@@ -33,6 +38,9 @@ html {
 .pimg3 {
   position: relative;
   opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
@@ -41,12 +49,37 @@ html {
   padding: 50px 80px;
 }
 
-.section-light {
-  background-color: #f4f4f4;
-  color: #666;
+.dark {
+  background-color:grey;
+  color: green;
 }
 
-.section-dark {
-  background-color: #282e34;
-  color: #ddd;
+.light{
+  background-color: pink;
+}
+
+#mine {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: relative;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+  color: pink;
+}
+
+#his {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: dashed;
+  text-align: center;
+  font-size: larger;
+  font-style: oblique;
+  color: red;
+}
+
+#theirs {
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  color: greenyellow;
 }
